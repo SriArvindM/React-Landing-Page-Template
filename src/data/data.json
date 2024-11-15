@@ -1,7 +1,7 @@
 {
   "Header": {
-    "title": "We are a Landing Page",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "title": "PHISHPROOF",
+    "paragraph": "PhishProof is a comprehensive phishing detection tool, designed to help users identify and prevent online scams and cyber threats efficiently."
   },
   "About": {
     "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
@@ -18,53 +18,39 @@
       "Lorem ipsum dolor"
     ]
   },
-  "Gallery": [
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/01-large.jpg",
-      "smallImage": "img/portfolio/01-small.jpg"
+    "PhishingArticle": {
+      "title": "What is Phishing?",
+      "introduction": "Phishing is a prevalent cyberattack that manipulates individuals into divulging sensitive information, such as usernames, passwords, or financial data, often through deceptive means like fraudulent emails, messages, or websites.",
+      "details": [
+        "Phishing attacks cause billions in financial damage annually, affecting millions of individuals and organizations.",
+        "According to recent statistics, over 3.4 billion phishing emails are sent every day, targeting unsuspecting users globally.",
+        "Phishing can lead to devastating outcomes, including identity theft, financial fraud, and unauthorized access to confidential systems."
+      ],
+      "types": [
+        {
+          "name": "Email Phishing",
+          "description": "The most common type, where attackers impersonate legitimate organizations through fraudulent emails."
+        },
+        {
+          "name": "Spear Phishing",
+          "description": "A targeted form of phishing aimed at specific individuals or businesses."
+        },
+        {
+          "name": "Smishing",
+          "description": "Phishing via SMS messages to lure victims into revealing sensitive data."
+        },
+        {
+          "name": "Vishing",
+          "description": "Voice phishing, where attackers use phone calls to trick victims."
+        }
+      ],
+      "protectionTips": [
+        "Be cautious with unsolicited communications asking for sensitive information.",
+        "Verify links before clicking and avoid opening unknown email attachments.",
+        "Implement multi-factor authentication (MFA) for added security.",
+        "Educate yourself and others about common phishing tactics."
+      ]
     },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/02-large.jpg",
-      "smallImage": "img/portfolio/02-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/03-large.jpg",
-      "smallImage": "img/portfolio/03-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/04-large.jpg",
-      "smallImage": "img/portfolio/04-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/05-large.jpg",
-      "smallImage": "img/portfolio/05-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/06-large.jpg",
-      "smallImage": "img/portfolio/06-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/07-large.jpg",
-      "smallImage": "img/portfolio/07-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/08-large.jpg",
-      "smallImage": "img/portfolio/08-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/09-large.jpg",
-      "smallImage": "img/portfolio/09-small.jpg"
-    }
-  ],
   "Services": [
     {
       "icon": "fa fa-wordpress",
@@ -159,26 +145,21 @@
     "twitter": "twitter.com",
     "youtube": "youtube.com"
   },
-  "Features": [
+ "Features": [
     {
-      "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-check-circle",
+      "title": "URL Checker",
+      "text": "Analyze and verify the safety of any URL to protect against phishing attacks."
     },
     {
-      "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-envelope",
+      "title": "Email Checker",
+      "text": "Verify the authenticity of email messages and prevent phishing attempts."
     },
     {
-      "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    },
-    {
-      "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-cogs",
+      "title": "Free Tools",
+      "text": "Access a set of free phishing detection tools to safeguard your online presence."
     }
   ]
 }
